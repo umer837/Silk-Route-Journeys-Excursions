@@ -14,9 +14,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img 
-            src="/logo.png" 
+            src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjByb2JvdHxlbnwwfHwwfHx8MA%3D%3D" 
             alt="Silk Route Journeys Logo" 
-            className="h-12 w-auto mr-3"
+            className="h-12 w-auto mr-3 rounded-full"
           />
           <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-sky-500 to-amber-400 bg-clip-text text-transparent">
             Silk Route Journeys
