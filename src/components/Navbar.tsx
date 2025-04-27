@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -14,6 +13,11 @@ const Navbar = () => {
     <nav className="bg-white shadow-md fixed w-full z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="flex items-center">
+          <img 
+            src="/logo.png" 
+            alt="Silk Route Journeys Logo" 
+            className="h-12 w-auto mr-3"
+          />
           <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-sky-500 to-amber-400 bg-clip-text text-transparent">
             Silk Route Journeys
           </span>
